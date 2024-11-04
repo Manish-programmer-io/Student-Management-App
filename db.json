@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "f81e",
+      "department": "Electronics",
+      "name": "Raj Gupta",
+      "mobile": "785412595",
+      "email": "Example@gmail.com",
+      "gender": "female",
+      "dob": "2024-10-23",
+      "city": "Jaipur",
+      "salary": "52000",
+      "address": "Lucknow",
+      "status": true
+    },
+    {
+      "id": "9207",
+      "department": "Electrical",
+      "name": "Rahul Verma",
+      "mobile": "784598526",
+      "email": "manish@gmail.com",
+      "gender": "male",
+      "dob": "2024-10-10",
+      "city": "Lucknow",
+      "salary": "58000",
+      "address": "mansarovar",
+      "status": true
+    }
+  ],
+  "credentials": [
+    {
+      "id": "12b3",
+      "fullName": "manish",
+      "email": "manish.soni@programmers.io",
+      "password": "Manish"
+    },
+    {
+      "id": "9532",
+      "fullName": "Manish",
+      "email": "manish@gmail.com",
+      "password": "Mandy"
+    },
+    {
+      "id": "7dcc",
+      "fullName": "Manish Soni",
+      "email": "manish@gmail.com",
+      "password": "Manish@2000"
+    }
+  ]
+}

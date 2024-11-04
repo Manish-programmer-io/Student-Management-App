@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ngx-toastr/toastr';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; /*Bootstrap CSS*/
+@import '../node_modules/font-awesome/css/font-awesome.min.css'; /*Font-Awesome CSS*/
+@import 'primeng/resources/themes/lara-light-blue/theme.css'; /*For Flex and grid help*/
+@import 'primeng/resources/primeng.min.css';
+@import 'primeflex/primeflex.css';
