@@ -1,19 +1,6 @@
 {
   "users": [
     {
-      "id": "f81e",
-      "department": "Electronics",
-      "name": "Raj Gupta",
-      "mobile": "785412595",
-      "email": "Example@gmail.com",
-      "gender": "female",
-      "dob": "2024-10-23",
-      "city": "Jaipur",
-      "salary": "52000",
-      "address": "Lucknow",
-      "status": true
-    },
-    {
       "id": "9207",
       "department": "Electrical",
       "name": "Rahul Verma",
@@ -24,7 +11,24 @@
       "city": "Lucknow",
       "salary": "58000",
       "address": "mansarovar",
-      "status": true
+      "status": true,
+      "cgpa": "7.2",
+      "fee": "50,000"
+    },
+    {
+      "id": "db52",
+      "department": "CSE",
+      "name": "Arpit Verma",
+      "mobile": "7895412658",
+      "email": "manish@gmail.com",
+      "gender": "male",
+      "dob": "2024-11-06",
+      "city": "Jaipur",
+      "salary": "250000",
+      "address": "Mansarovar Jaipur",
+      "status": true,
+      "cgpa": "8.3",
+      "fee": "35,000"
     }
   ],
   "credentials": [
@@ -45,6 +49,30 @@
       "fullName": "Manish Soni",
       "email": "manish@gmail.com",
       "password": "Manish@2000"
+    },
+    {
+      "id": "1f19",
+      "fullName": "Manish Soni",
+      "email": "manish@hotmail.in",
+      "password": "Manish"
+    },
+    {
+      "id": "6f4d",
+      "fullName": "Shivam Singh",
+      "email": "shivamsingh@hotmail.com",
+      "password": "Shivamsingh"
+    },
+    {
+      "id": "14d7",
+      "fullName": "Rajesh Yadav",
+      "email": "rajesh@gmail.com",
+      "password": "Rajesh"
+    },
+    {
+      "id": "4375",
+      "fullName": "manish",
+      "email": "manish@gmail.com",
+      "password": "Manish"
     }
   ]
 }

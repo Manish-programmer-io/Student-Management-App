@@ -5,6 +5,7 @@ import { UserService } from '../../Services/user.service';
 import { ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-user',
   standalone: true,
@@ -25,7 +26,8 @@ export class UserComponent implements OnInit {
     gender: "",
     dob: "",
     city: "",
-    salary: 0,
+    fee: 0,
+    cgpa:"",
     address: "",
     status: false,
   }
@@ -63,8 +65,6 @@ export class UserComponent implements OnInit {
 
       });
     }
-
-
   }
 
   onEdit(userdata: UserModel) {

@@ -8,7 +8,8 @@ export interface UserModel {
     gender: string;
     dob: string;
     city: string;
-    salary: number;
+    fee: number;
     address: string;
     status: boolean;
+    cgpa: string;
 }

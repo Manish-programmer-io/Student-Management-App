@@ -27,7 +27,7 @@ export class RegisterComponent {
     ]),
     password: new FormControl('', [Validators.required, Validators.minLength(3)]),
     confirmPassword: new FormControl('', [Validators.required, Validators.minLength(3)])
-  },
+  }, 
   {
     validators: passwordMismatchValidator,
   },
@@ -65,9 +65,9 @@ export class RegisterComponent {
   get email() {
     return this.registerForm.controls['email'];
   }
-
+ 
   get password() {
-    return this.registerForm.controls['password'];
+    return this.registerForm.controls['password'];   
   }
 
   get confirmPassword() {

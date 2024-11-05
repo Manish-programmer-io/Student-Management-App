@@ -11,13 +11,13 @@ import { InputMaskModule } from 'primeng/inputmask';
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule,FormsModule, RouterLink],
+  imports: [ReactiveFormsModule, CommonModule, FormsModule, RouterLink],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
   login = {
-    email: '',
+    email: '', 
     password: ''
   }
 
